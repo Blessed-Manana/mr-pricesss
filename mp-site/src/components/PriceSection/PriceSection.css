@@ -1,0 +1,45 @@
+.PriceSectionDiv{
+    display: flex;
+    padding: 17px 12px 0px;
+}
+
+.PriceSection h1{
+    text-align: center;
+}
+
+.cover{
+    height: 100%;
+    width: 100%;
+    max-width: 220.73px;
+    padding: 0px 12px 27px;
+}
+
+.cover img{
+    width: 100%;
+}
+
+.redtext{
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.redtext:hover{
+    color:red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.greytext{
+    font-size:small;
+    color:#9a9dA0;
+}
+
+.pricetext{
+    font-weight: bold;
+}
+
+.cover-prices{
+    padding: 16px;
+    line-height: 23px;
+}
