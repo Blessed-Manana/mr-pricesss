@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: inter, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 1px solid #ccc;
+}
+
+header{
+    padding-top: 131px;
+}

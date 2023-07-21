@@ -1,0 +1,226 @@
+/* SEARCH SECTION  */
+/* BACKGROUND */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: inter, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search-section{
+    background-color: #f9f9fb;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+/* LOGO  */
+#logo{
+    width: 100%;
+    height: 100%;
+    max-width: 211px;
+    max-height: 55px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    max-width: 209px;
+    max-height: 55px;
+}
+
+/* SEARCH BAR  */
+#searchbar{
+    width: 100%;
+    height: 100%;
+    max-width: 620px;
+    max-height: 50px;
+    margin: 0px 10px;
+    background-color: #fff;
+    border: 1px solid #b3b5b544;
+    display: flex;
+    border-radius: 5px;
+}
+
+#search-icon{
+    width: 100%;
+    height: 100%;
+    max-width: 50px;
+    max-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#search-icon img{
+    opacity: 50%;
+}
+
+.icon, .bi-bag{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.bi-bag:hover{
+    color: #d71920;
+    transition: 1s;
+}
+
+#handbag{
+    position: relative !important;
+}
+
+.handbag-p{
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    padding: 3px;
+    font-size: 11px;
+    background-color: #d71920;
+    border-radius: 100px;
+    color: #fff;
+}
+
+
+#search-input{
+    width: 100%;
+    height: 100%;
+    max-width: 448px;
+    max-height: 48px;
+}
+
+#search-input input{
+    width: 95%;
+    height: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+#search-input input:focus{
+    outline: none;
+}
+
+#search-camera{
+    width: 100%;
+    height: 100%;
+    max-width: 170px;
+    max-height: 48px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+#search-camera p{
+    width: 100%;
+    height: 100%;
+    max-width: 170px;
+    max-height: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 14.3px;
+    color: #9A9DA0;
+}
+
+#camera-icon{
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+/* SIGN UP/REGISTER  */
+
+#signin{
+    width: 100%;
+    height: 100%;
+    max-width: 251px;
+    max-height: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+#person{
+    width: 100%;
+    height: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#person img:hover{
+   background-color: #d71920;
+   transition: 1s;
+   border-radius: 100%;
+}
+
+#register{
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register p{
+    font-size: 14px;
+    border-right: 1px solid #9a9da089;
+    /* width: 130px; */
+    padding-right: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register p:hover{
+    color: #d71920;
+    transition: 0.5s;
+}
+
+#handbag{
+    width: 100%;
+    height: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#handbag img:hover{
+    background-color: #d71920;
+    transition: 1s;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .search-section{
+        width: 100%;
+        height: 65px;
+    }
+
+    #logo{
+        width: 81px;
+        height: 35px;
+    }
+    
+    #logo img{
+        width: 80px;
+        height: 35px;
+    }
+}
